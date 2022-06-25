@@ -1,0 +1,60 @@
+#our-menu {
+    padding-top: 13rem;
+    h4 {
+        font-size: 1.6rem;
+        font-weight: 300;
+        color: #f34949;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 3.2rem;
+        font-weight: 700;
+        margin-bottom: .8rem;
+        text-align: center;
+    }
+    .menu {
+        margin-top: 6rem;
+
+        h3 {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 2.8rem;
+            font-weight: 600;
+            margin-bottom: 4.8rem;
+            text-align: center;
+        }
+        .menu-card {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: .8px dashed #6c757d;
+
+            img {
+                border-radius: 50%;
+                width: 80px;
+            }
+            .menu-content {
+                padding-left: 1.5rem;
+                h2 {
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 2.4rem;
+                    font-weight: 300;
+                }
+                h5 {
+                    font-size: 1.6rem;
+                    font-weight: 300;
+                }
+            }
+            .menu-price {
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 2.4rem;
+                font-weight: 300;
+                color: #6c757d;
+                padding-left: 1.5rem;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}

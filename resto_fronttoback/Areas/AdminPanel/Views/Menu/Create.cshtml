@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+    Layout = "_Layout";
+}
+@model Menu
+<div class="container">
+    <form method="post" enctype="multipart/form-data">
+        <div class="mb-3 form-check">
+            <input asp-for="Title" class="form-input" id="exampleCheck1">
+            <label asp-for="Title" class="form-label"></label>
+            <span asp-validation-for="Title"></span>
+        </div>
+        <div class="mb-3 form-check">
+            <input asp-for="Subtitle" class="form-input" id="exampleCheck1">
+            <label asp-for="Subtitle" class="form-label"></label>
+            <span asp-validation-for="Subtitle"></span>
+
+        </div>
+        <div class="mb-3 form-check">
+            <input asp-for="Price" class="form-input" id="exampleCheck1">
+            <label asp-for="Price" class="form-label"></label>
+            <span asp-validation-for="Price"></span>
+
+        </div>
+        <div class="mb-3 form-check">
+            <select asp-for="MenuCategoryId" asp-items="@(new SelectList(ViewBag.CategoryIds,"Id","Title"))"></select>
+        </div>
+        <div class="mb-3 form-check">
+            <input asp-for="FormFile" class="form-input" id="exampleCheck1">
+            <label asp-for="FormFile" class="form-label"></label>
+            <span asp-validation-for="FormFile"></span>
+
+        </div>
+        <button type="submit" class="btn btn-primary">Yarat</button>
+    </form>
+</div>
+

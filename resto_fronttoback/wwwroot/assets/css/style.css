@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 70% !important;
+  padding: 3rem;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  border: 3rem solid #f4ede5;
+}
+
+header .bars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .bars i {
+  font-size: 1.6rem;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+header .bars i:hover {
+  color: #f34949;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+header .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+header .navbar ul a {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+header .navbar ul a i {
+  margin-left: .5rem;
+}
+
+header .navbar ul a:hover {
+  color: #f34949;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+header .logo {
+  text-align: center;
+}
+
+header .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .search i {
+  font-size: 1.6rem;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+header .search i:hover {
+  color: #f34949;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+#hero h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 5.6rem;
+  font-weight: 300;
+  margin-bottom: 4.8rem;
+}
+
+#hero .hero-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hero .hero-btns .hero-btn {
+  background-color: #f34949;
+  color: #fff;
+  font-size: 1.6rem;
+  border-radius: 3rem;
+  padding: .9rem 2.5rem;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+#hero .hero-btns .hero-btn:hover {
+  background-color: #e22104;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+#hero .hero-btns .film-btn {
+  color: #000;
+  font-size: 2rem;
+  padding: .8rem 1.6rem;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+#hero .hero-btns .film-btn:hover {
+  color: #e22104;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+#hero .hero-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 14rem;
+}
+
+#hero .hero-services .service {
+  width: auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+#hero .hero-services .service i {
+  font-size: 3.2rem;
+  margin-bottom: 1.5rem;
+}
+
+#hero .hero-services .service p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: .8rem;
+}
+
+#about {
+  padding-top: 13rem;
+}
+
+#about .about-img {
+  height: 100%;
+}
+
+#about .about-img img {
+  width: 100%;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+#about .about-content {
+  margin-left: 4.8rem;
+  padding: 4.8rem 1.5rem 4.8rem 4.8rem;
+}
+
+#about .about-content h4 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #f34949;
+}
+
+#about .about-content h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: .8rem;
+}
+
+#about .about-content p {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-bottom: 1.6rem;
+  padding-top: 2rem;
+  opacity: .8;
+  width: 95%;
+}
+
+#about .about-content .about-product-body h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.8rem;
+  margin-top: 4.8rem;
+  margin-bottom: .8rem;
+}
+
+#about .about-content .about-product-body .card {
+  border: none;
+}
+
+#specialties {
+  padding-top: 12rem;
+  background-color: #F7F8F9;
+}
+
+#specialties .special-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  padding-bottom: 4rem;
+}
+
+#specialties .special-content {
+  font-size: 5rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#specialties .special-line {
+  height: 2px;
+  width: 20rem;
+  background-color: black;
+  opacity: .6;
+}
+
+#specialties .special-text {
+  padding-left: 8rem;
+}
+
+#specialties .special-text h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.6rem;
+  color: #f34949;
+}
+
+#specialties .special-text h5 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.8rem;
+}
+
+#specialties .special-text p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+#specialties .special-text p.price {
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+
+#specialties .special-text a {
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  padding: .9rem 2.5rem;
+}
+
+#specialties .special-content-main1 {
+  padding: 8rem 15rem 15rem .8rem;
+}
+
+#specialties .special-content-main1 span {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 6rem;
+  font-weight: 700;
+  margin-right: 2rem;
+}
+
+#specialties .special-content-main2 {
+  padding: 8rem .8rem 15rem 15rem;
+}
+
+#specialties .special-content-main2 span {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 6rem;
+  font-weight: 700;
+  margin-right: 2rem;
+}
+
+#our-menu {
+  padding-top: 13rem;
+}
+
+#our-menu h4 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #f34949;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#our-menu h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: .8rem;
+  text-align: center;
+}
+
+#our-menu .menu {
+  margin-top: 6rem;
+}
+
+#our-menu .menu h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 4.8rem;
+  text-align: center;
+}
+
+#our-menu .menu .menu-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: .8px dashed #6c757d;
+}
+
+#our-menu .menu .menu-card img {
+  border-radius: 50%;
+  width: 80px;
+}
+
+#our-menu .menu .menu-card .menu-content {
+  padding-left: 1.5rem;
+}
+
+#our-menu .menu .menu-card .menu-content h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+#our-menu .menu .menu-card .menu-content h5 {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+#our-menu .menu .menu-card .menu-price {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 300;
+  color: #6c757d;
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}

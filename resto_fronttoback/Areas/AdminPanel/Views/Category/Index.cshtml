@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_Layout";
+    int count = 0;
+}
+@model List<MenuCategory>
+<div class="container">
+    <td><a class="btn btn-primary" asp-controller="category" asp-action="create" >Create</a></td>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Kateqoriya Adi</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                count++;
+                <tr>
+                    <th scope="row">@count</th>
+                    <td>@item.Title</td>
+                    <td><a class="btn btn-success" asp-route-id="@item.Id" asp-controller="category" asp-action="update">Update</a></td>
+                    <td><a class="btn btn-danger" asp-route-id="@item.Id" asp-controller="category" asp-action="delete">Delete</a></td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

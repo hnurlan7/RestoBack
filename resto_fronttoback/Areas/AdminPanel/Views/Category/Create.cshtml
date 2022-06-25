@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+    Layout = "_Layout";
+}
+@model MenuCategory
+<div class="container">
+    <form method="post">
+        <div class="mb-3 form-check">
+            <input asp-for="Title" class="form-input" id="exampleCheck1">
+            <label asp-for="Title" class="form-label"></label>
+        </div>
+        <button type="submit" class="btn btn-primary">Yarat</button>
+    </form>
+</div>
+

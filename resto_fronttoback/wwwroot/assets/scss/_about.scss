@@ -1,0 +1,47 @@
+#about {
+    padding-top: 13rem;
+
+    .about-img {
+        height: 100%;
+        // width: 100%;
+        img {
+            width: 100%;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+        }
+    }
+    .about-content {
+        margin-left: 4.8rem;
+        padding: 4.8rem 1.5rem 4.8rem 4.8rem;
+        h4 {
+            font-size: 1.6rem;
+            font-weight: 300;
+            color: #f34949;
+        }
+        h1 {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 3.2rem;
+            font-weight: 700;
+            margin-bottom: .8rem;
+        }
+        p {
+            font-size: 1.6rem;
+            line-height: 2rem;
+            margin-bottom: 1.6rem;
+            padding-top: 2rem;
+            opacity: .8;
+            width: 95%;
+        }
+        .about-product-body {
+            h2 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 2.8rem;
+                margin-top: 4.8rem;
+                margin-bottom: .8rem;
+            }
+            .card {
+                border: none;
+                
+            }
+        }
+    }
+}
